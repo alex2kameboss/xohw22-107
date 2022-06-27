@@ -146,15 +146,6 @@ for i in range(len(buffer)):
 stop = time.time()
 
 
-# In[13]:
-
-
-delta = stop - start
-print("Taken time: ", delta)
-fps = float(len(buffer) / delta)
-print("FPS: ", fps)
-
-
 # In[14]:
 
 
@@ -164,5 +155,16 @@ for result in results:
     t += 1
     if result[1] is not None:
         c += 1
+        print("%s,%d,%d,%d,%d" % (result[0], result[1][0], result[1][1], result[1][2], result[1][3]))
+    else:
+        print("%s,,,," % (result[0]))
     
-print(str(c) + "/" + str(t))
+print('Acc:' + str(c) + "/" + str(t))
+
+# In[13]:
+
+
+delta = stop - start
+print("Taken time: ", delta)
+fps = float(len(buffer) / delta)
+print("FPS: ", fps)
