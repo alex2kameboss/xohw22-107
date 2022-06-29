@@ -165,6 +165,6 @@ print('Acc:' + str(c) + "/" + str(t))
 
 
 delta = stop - start
-print("Taken time: ", delta)
+print("Taken time: ", delta, "seconds")
 fps = float(len(buffer) / delta)
 print("FPS: ", fps)
