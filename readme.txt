@@ -2,7 +2,7 @@ Team number: xohw22-107
 
 Project name: Computer vision application featuring neural networks on Zybo-Z7 using the Vitis Unified Software Platform
 
-Link to YouTube Video(s):
+Link to YouTube Video(s): https://www.youtube.com/watch?v=nvyxL31SzeY&ab_channel=RaulDaniel
 
 Link to project repository: https://github.com/alex2kameboss/xohw22-107
 
