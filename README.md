@@ -38,7 +38,7 @@ Brief description of project:
 Description of archive (explain directory structure, documents and source files):
 
 * In *files* folder are located all related file to build base platfrom
-* *files/Vivado_2021_2* has the script to generate de hardware platform, required in petalainux
+* *files/Vivado_2021_2* has the script to generate the hardware platform, required in petalainux
 * *files/Petalinux_2021_2* has the petalinux project, compiled VART 2.0 for PYNQ Z2 and kernel lib for DPU 3.8
 * In *dpu_test* are located testing scripts and and aditional resources
  
