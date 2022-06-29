@@ -42,7 +42,7 @@ def get_child_subgraph_dpu(graph: "Graph") -> List["Subgraph"]:
 # In[3]:
 
 
-model = "plate_detect/plate_detect.xmodel"
+model = "plate_detect.xmodel"
 g = xir.Graph.deserialize(model)
 subgraphs = get_child_subgraph_dpu(g)
 runner = vart.Runner.create_runner(subgraphs[0], "run")
