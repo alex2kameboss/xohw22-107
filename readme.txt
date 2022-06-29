@@ -49,19 +49,19 @@ Instructions to build and test project:
 
 Step 1. open Vivado 2021.2
 Step 2. include DPU 3.8 into IP list - download Vitis AI repo and include to Vivado
-Step 3. source *<repo_path>*/files/Vivado_2021_2/pynq_z2_dpu3.4_2021_2_hw.tcl
+Step 3. source <repo_path>/files/Vivado_2021_2/pynq_z2_dpu3.4_2021_2_hw.tcl
 Step 4. start synthesis and generate bistream
 Step 5. export project hardware
-Step 6. create Petalinux 2021.2 project: petalinux-create -t project -s *<repo_path>*/files/Petalinux_2021_2/pynq_z2_dpu_2021_2_petalinux.bsp
+Step 6. create Petalinux 2021.2 project: petalinux-create -t project -s <repo_path>/files/Petalinux_2021_2/pynq_z2_dpu_2021_2_petalinux.bsp
 Step 7. cd to petalinux project directory
-Step 8. petalinux-config --get-hw-description *<path_to_eported_hardware>*
+Step 8. petalinux-config --get-hw-description <path_to_eported_hardware>
 Step 9. petalinux-build
 Step 10. petalinux-package --boot --u-boot --fpga
-Step 11. follow [this steps](https://docs.xilinx.com/r/2021.2-English/ug1144-petalinux-tools-reference-guide/Steps-to-Boot-a-PetaLinux-Image-on-Hardware-with-SD-Card) to create a bootable SD card
-Step 12. cp *<repo_path>*/files/Petalinux_2021_2/dpu.xclbin to BOOT partition
-Step 13. extract *<repo_path>*/files/Petalinux_2021_2/vart2_pynq_z2.tar.gz to rootfs partiton
-Step 14. cp directory *<repo_path>*/dpu_test to rootfs partition, recomanded home/petalinux
-Step 15. etract in place *<rootfs>*/dpu_test/images
+Step 11. follow this steps (https://docs.xilinx.com/r/2021.2-English/ug1144-petalinux-tools-reference-guide/Steps-to-Boot-a-PetaLinux-Image-on-Hardware-with-SD-Card) to create a bootable SD card
+Step 12. cp <repo_path>/files/Petalinux_2021_2/dpu.xclbin to BOOT partition
+Step 13. extract <repo_path>/files/Petalinux_2021_2/vart2_pynq_z2.tar.gz to rootfs partiton
+Step 14. cp directory <repo_path>/dpu_test to rootfs partition, recomanded home/petalinux
+Step 15. etract in place <rootfs>/dpu_test/images
 Step 16. plug SD card and power on
 Step 17. connect to a serial monitor
 Step 18. cd in dpu_test directory
