@@ -62,4 +62,4 @@ Instructions to build and test project:
 * plug SD card and power on
 * connect to a serial monitor
 * cd in dpu_test directory
-* python3 fps_acc.py
+* run the command " python3 fps_acc.py "
