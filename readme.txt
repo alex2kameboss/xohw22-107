@@ -63,6 +63,6 @@ Step 13. extract <repo_path>/files/Petalinux_2021_2/vart2_pynq_z2.tar.gz to root
 Step 14. cp directory <repo_path>/dpu_test to rootfs partition, recomanded home/petalinux
 Step 15. etract in place <rootfs>/dpu_test/images
 Step 16. plug SD card and power on
-Step 17. connect to a serial monitor
+Step 17. connect to a serial monitor (Recommanded speed 115200)
 Step 18. cd in dpu_test directory
 Step 19. python3 fps_acc.py
