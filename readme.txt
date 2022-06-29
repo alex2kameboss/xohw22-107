@@ -40,8 +40,8 @@ Description of archive (explain directory structure, documents and source files)
 - files/Petalinux_2021_2 folder has the petalinux project, compiled VART 2.0 for PYNQ Z2 and kernel lib for DPU 3.8
 - dpu_test folder has testing scripts and aditional resources
 - files/Vivado_2021_2/pynq_z2_dpu3.4_2021_2_hw.tcl - paltfrom bistream
-- files/Vivado_2021_2/pynq_z2_dpu3.4_2021_2_hw.tcl - script for Vivado 2021.2 to build platfrom project
-- files/Petalinux_2021_2/pynq_z2_dpu_2021_2_petalinux.bsp - bsp file for pynq z2 platfrom
+- files/Vivado_2021_2/pynq_z2_dpu3.4_2021_2_hw.tcl - script for Vivado 2021.2 to build platform project
+- files/Petalinux_2021_2/pynq_z2_dpu_2021_2_petalinux.bsp - bsp file for pynq z2 platform
 - files/Petalinux_2021_2/dpu.xclbin - kernel lib for dpu
 - files/Petalinux_2021_2/vart2_pynq_z2.tar.gz - compiled VART 2.0 for pynq z2
 
